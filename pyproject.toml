@@ -1,0 +1,13 @@
+[project]
+name = "monica-sdk"
+version = "1.0.0"
+description = "Monica AI Chat SDK"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.28.0",
+    "playwright>=1.40.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
